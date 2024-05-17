@@ -1,0 +1,198 @@
+/************************General**********************/
+
+.custom-margin-bottom-30 {
+    margin-bottom: 30px;
+}
+
+.custom-margin-50-0-0-10 {
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.custom-margin-bottom-0 {
+    margin-bottom: 0px;
+}
+
+.custom-margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.custom-margin-left-10 {
+    margin-left: 10px;
+}
+
+.custom-float-right {
+    float: right;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-black {
+    color: #000;
+}
+
+/******************************Accordion & Widget***************************/
+
+.accordion {
+    width: 100%;
+}
+
+.custom-widget li {
+    border: none;
+    padding: 3px 0 5px 20px;
+}
+
+/*********************Table Style****************************/
+
+.custom-table-style,
+.custom-table-style td,
+.custom-table-style th {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+.custom-table-style th {
+    padding: 5px;
+    height: 25px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.custom-table-style .th2 {
+    text-align: left;
+    vertical-align: middle;
+}
+
+.custom-table-style th {
+    font-weight: bold;
+    color: #000;
+}
+
+.custom-table-style {
+    margin: 0 10px;
+    width: 100%;
+}
+
+.th1 {
+    width: 5%;
+}
+
+.th2 {
+    width: 65%;
+}
+
+.th3,
+.th4,
+.th5 {
+    width: 10%;
+}
+
+.custom-tablecell-width-45 {
+    width: 45px;
+}
+
+.th-style-1 {
+    width: 40%;
+}
+
+.th-style-2 {
+    width: 20%;
+}
+
+.custom-table-style .td-style-1 {
+    font-weight: 700;
+    text-align: left;
+}
+
+.custom-table-style .td-style-2 {
+    text-align: right;
+}
+
+/************************Responsive**********************/
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .custom-float-right {
+        float: none;
+    }
+    #logo {
+        width: 200px;
+        height: 65px;
+    }
+    #logo2 {
+        width: 180px;
+        height: 65px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .custom-float-right {
+        float: none;
+    }
+    #logo {
+        float: left;
+        width: 137px;
+        height: 45px;
+    }
+    #logo2 {
+        width: 125px;
+        height: 45px;
+    }
+    #contact-info-container {
+        float: none;
+    }
+    #contact-info-container .info {
+        margin: 0 0 5px auto;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .custom-float-right {
+        float: none;
+    }
+    #logo {
+        float: left;
+        width: 91px;
+        height: 30px;
+    }
+    #logo2 {
+        width: 83px;
+        height: 30px;
+    }
+    #contact-info-container {
+        float: none;
+    }
+    #contact-info-container .info {
+        margin: 0 0 5px auto;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .custom-list-style a:hover {
+        font-size: 1.05em !important;
+    }
+    /*******************************Footer***************************/
+    .custom-list-style {
+        list-style: circle outside none;
+    }
+    #footer-wrapper a:hover {
+        color: #000000 !important;
+        font-weight: bold;
+    }
+    /******************************* Resetlement Page Specific Styles ***************************/
+    .rest-figure {
+        margin: 30px auto;
+        text-align: center;
+    }
+    .rest-figcaption {
+        margin-top: 10px;
+        text-align: center;
+    }
+    /******************************* Video Gallery Page Specific Styles *****************************/
+    .video-list li iframe {
+        height: 200px;
+    }
+    .video-list li p {
+        font-size: 18px;
+    }
